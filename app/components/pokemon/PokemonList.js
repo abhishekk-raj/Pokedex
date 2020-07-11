@@ -1,10 +1,15 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View, Button } from "react-native";
 
-const PokemonListComponent = () => {
+const PokemonListComponent = ({ navigation }) => {
+  
+  const pressHandler = () => {
+    navigation.navigate('PokemonDetail')
+  }
   return (
     <View>
       <Text>ListComponent</Text>
+      <Button title='go to detail' onPress={pressHandler}/>
     </View>
   );
 };
