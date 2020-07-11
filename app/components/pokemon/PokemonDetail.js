@@ -1,10 +1,38 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Image, Text, View } from "react-native";
+import { commonStyles } from "../../styles/common";
 
-const PokemonDetailComponent = () => {
+const PokemonDetailComponent = ({route}) => {
+  const {data} = route.params;
+  
   return (
-    <View>
-      <Text>DetailComponent</Text>
+    <View style={commonStyles.detailViewContainer}>
+      <Image
+        resizeMode='contain'
+        style={commonStyles.detailViewImage}
+        source={{uri: data.img}}
+      />
+      <Text style={commonStyles.detailViewTitle}> {data.name} </Text>
+      <Text style={commonStyles.detailViewType}> {data.type.join(" | ")} </Text>
+      
+      <View style={commonStyles.detailViewDivider}/>
+      
+      <View style={commonStyles.detailViewStatsContainer}>
+        <View style={commonStyles.detailViewStatsSingleView}>
+          <Text style={commonStyles.detailViewStatsCount}> {data.stats.hp} </Text>
+          <Text> HP </Text>
+        </View>
+        
+        <View style={commonStyles.detailViewStatsSingleView}>
+          <Text style={commonStyles.detailViewStatsCount}> {data.stats.attack} </Text>
+          <Text> Attack </Text>
+        </View>
+        
+        <View style={commonStyles.detailViewStatsSingleView}>
+          <Text style={commonStyles.detailViewStatsCount}> {data.stats.defense} </Text>
+          <Text> Defense </Text>
+        </View>
+      </View>
     </View>
   );
 };
