@@ -4,16 +4,23 @@ import colors from "./colors";
 export const commonStyles = StyleSheet.create({
 	appContainer: {
 		flex: 1,
-		backgroundColor: colors.colorSecondary,
+		backgroundColor: colors.colorPrimary,
 		paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
 	},
-	listItem: {
+	
+	listItemContainer: {
 		padding: 10,
 		marginTop: 10,
 		marginLeft: 5,
 		marginRight: 5,
 		borderRadius: 5,
 		backgroundColor: 'white',
+		flexDirection: 'row',
+		alignItems: 'center'
+	},
+	
+	listItem: {
+		flex: 1,
 		flexDirection: 'row',
 		alignItems: 'center'
 	},
