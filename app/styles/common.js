@@ -81,5 +81,73 @@ export const commonStyles = StyleSheet.create({
 	detailViewStatsCount: {
 		fontSize: 25,
 		color: colors.colorPrimaryDark
+	},
+	
+	floatingActionButton: {
+		alignItems: 'center',
+		justifyContent: 'center',
+		width: 60,
+		height: 60,
+		position: 'absolute',
+		bottom: 10,
+		backgroundColor: colors.colorPrimaryDark,
+		borderRadius: 100,
+		elevation: 5,
+		shadowColor: colors.colorGrey,
+		shadowOffset: {width: 0, height: 2},
+		shadowOpacity: 0.8,
+		shadowRadius: 2,
+	},
+	
+	modalOverlay: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: colors.colorOverlay,
+	},
+	
+	modalView: {
+		margin: 20,
+		backgroundColor: colors.colorPrimary,
+		borderRadius: 5,
+		alignItems: "center",
+		shadowColor: colors.colorGrey,
+		shadowOffset: {
+			width: 0,
+			height: 2
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5
+	},
+	
+	modalViewHeader: {
+		width: 300,
+		height: 40,
+		borderWidth: 1,
+		borderColor: '#ddd',
+		borderBottomWidth: 1,
+		borderRadius: 5,
+		justifyContent: 'center',
+		paddingLeft: 10,
+	},
+	
+	formInput: {
+		width: 280,
+		height: 40,
+		borderColor: colors.colorGrayLight,
+		borderWidth: 1,
+		marginTop: 10,
+		borderRadius: 5,
+		padding: 10
+	},
+	
+	addPokemonButton: {
+		backgroundColor: colors.colorPrimaryDark,
+		padding: 10,
+		marginTop: 10,
+		marginBottom: 10,
+		borderRadius: 5,
+		color: colors.colorPrimary
 	}
 })

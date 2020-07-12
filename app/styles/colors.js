@@ -5,5 +5,7 @@ export default {
   colorPrimaryDark: "#0077FF",
   colorSecondaryDark: "#CDE1F8",
   
-  colorGrey: '#616161'
+  colorGrey: '#616161',
+  colorGrayLight: '#bdbdbd',
+  colorOverlay: 'rgba(0, 0, 0, 0.7)'
 };
