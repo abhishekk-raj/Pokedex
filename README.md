@@ -30,3 +30,7 @@ It seems you are ready to contribute, please following the steps below -
 * After successfully build, it will navigate you to the browser window - `http://localhost:19002/`. 
     * At the left panel, you can see the list of device to run the app on. 
     * Select the device of your choice and run the application.
+
+## Project Preview
+
+![](PokedexPreview.gif)
