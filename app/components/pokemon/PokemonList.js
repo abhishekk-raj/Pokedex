@@ -4,6 +4,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import { MOCKUP_DATA } from "../../shared/data";
 import { commonStyles } from "../../styles/common";
+import { defaultImage } from "../../shared/defaults";
 
 const PokemonListComponent = ({navigation}) => {
 	
@@ -98,7 +99,11 @@ const PokemonListComponent = ({navigation}) => {
 						<TouchableOpacity
 							style={commonStyles.listItem}
 							onPress={() => navigation.navigate('PokemonDetail', {data: item})}>
-							<Image source={{uri: item.img, width: 30, height: 30}}/>
+							<Image source={{
+								uri: item.img !== "" ? item.img : defaultImage,
+								width: 30,
+								height: 30
+							}}/>
 							<Text style={commonStyles.listItemText}>{item.name}</Text>
 						</TouchableOpacity>
 						
@@ -150,6 +155,7 @@ const PokemonListComponent = ({navigation}) => {
 								style={commonStyles.formInput}
 								placeholder='HP'
 								type='text'
+								keyboardType='numeric'
 								onChangeText={(e) => handleForm('hp', e)}
 							/>
 							
@@ -157,6 +163,7 @@ const PokemonListComponent = ({navigation}) => {
 								style={commonStyles.formInput}
 								placeholder='Attack'
 								type='text'
+								keyboardType='numeric'
 								onChangeText={(e) => handleForm('attack', e)}
 							/>
 							
@@ -164,6 +171,7 @@ const PokemonListComponent = ({navigation}) => {
 								style={commonStyles.formInput}
 								placeholder='Defence'
 								type='text'
+								keyboardType='numeric'
 								onChangeText={(e) => handleForm('defence', e)}
 							/>
 							

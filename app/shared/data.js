@@ -463,7 +463,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "029",
 		"name": "Nidoran?",
-		"img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
+		"img": "",
 		"type": [
 			"Poison"
 		],
@@ -512,7 +512,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "032",
 		"name": "Nidoran?",
-		"img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
+		"img": "",
 		"type": [
 			"Poison"
 		],
@@ -1351,7 +1351,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "083",
 		"name": "Farfetch'd",
-		"img": "http://img.pokemondb.net/artwork/farfetch'd.jpg",
+		"img": "",
 		"type": [
 			"Normal",
 			"Flying"
@@ -1989,7 +1989,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "122",
 		"name": "Mr. Mime",
-		"img": "http://img.pokemondb.net/artwork/mr. mime.jpg",
+		"img": "",
 		"type": [
 			"Psychic"
 		],

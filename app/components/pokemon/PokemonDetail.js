@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, Text, View } from "react-native";
 import { commonStyles } from "../../styles/common";
+import { defaultImage } from "../../shared/defaults";
 
 const PokemonDetailComponent = ({route}) => {
   const {data} = route.params;
@@ -10,7 +11,7 @@ const PokemonDetailComponent = ({route}) => {
       <Image
         resizeMode='contain'
         style={commonStyles.detailViewImage}
-        source={{uri: data.img}}
+        source={{uri: data.img !== "" ? data.img : defaultImage}}
       />
       <Text style={commonStyles.detailViewTitle}> {data.name} </Text>
       <Text style={commonStyles.detailViewType}> {data.type.join(" | ")} </Text>
