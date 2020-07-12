@@ -14,7 +14,7 @@ This is a sample React Native application without any backend connectivity. All 
 ## Prerequisite
 Before start working on this project, your local environment should have following things installed - 
 * Node v12.14.1
-* Pokedex
+* expo-cli
 * Yarn
 * Expo app installed in your iOS/Android device to test the application
 
