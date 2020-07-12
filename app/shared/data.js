@@ -8,12 +8,12 @@ export const MOCKUP_DATA = [
 			"Poison"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "49",
 			"defense": "49",
 			"spattack": "65",
 			"spdefense": "65",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -155,12 +155,12 @@ export const MOCKUP_DATA = [
 			"Bug"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "30",
 			"defense": "35",
 			"spattack": "20",
 			"spdefense": "20",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -189,7 +189,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "60",
-			"attack": 45,
+			"attack": "45",
 			"defense": "50",
 			"spattack": "80",
 			"spdefense": "80",
@@ -222,7 +222,7 @@ export const MOCKUP_DATA = [
 			"Poison"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "25",
 			"defense": "50",
 			"spattack": "25",
@@ -242,7 +242,7 @@ export const MOCKUP_DATA = [
 			"hp": "65",
 			"attack": "80",
 			"defense": "40",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "80",
 			"speed": "75"
 		}
@@ -257,7 +257,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "40",
-			"attack": 45,
+			"attack": "45",
 			"defense": "40",
 			"spattack": "35",
 			"spdefense": "35",
@@ -455,7 +455,7 @@ export const MOCKUP_DATA = [
 			"hp": "75",
 			"attack": "100",
 			"defense": "110",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "55",
 			"speed": "65"
 		}
@@ -463,7 +463,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "029",
 		"name": "Nidoran?",
-		"img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
+		"img": "",
 		"type": [
 			"Poison"
 		],
@@ -512,7 +512,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "032",
 		"name": "Nidoran?",
-		"img": "http://img.pokemondb.net/artwork/nidoran?.jpg",
+		"img": "",
 		"type": [
 			"Poison"
 		],
@@ -567,7 +567,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "70",
-			"attack": 45,
+			"attack": "45",
 			"defense": "48",
 			"spattack": "60",
 			"spdefense": "65",
@@ -631,9 +631,9 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "115",
-			"attack": 45,
+			"attack": "45",
 			"defense": "20",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "25",
 			"speed": "20"
 		}
@@ -648,10 +648,10 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "140",
 			"attack": "70",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "75",
 			"spdefense": "50",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -664,7 +664,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "40",
-			"attack": 45,
+			"attack": "45",
 			"defense": "35",
 			"spattack": "30",
 			"spdefense": "40",
@@ -697,7 +697,7 @@ export const MOCKUP_DATA = [
 			"Poison"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "50",
 			"defense": "55",
 			"spattack": "75",
@@ -751,7 +751,7 @@ export const MOCKUP_DATA = [
 			"hp": "35",
 			"attack": "70",
 			"defense": "55",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "55",
 			"speed": "25"
 		}
@@ -787,7 +787,7 @@ export const MOCKUP_DATA = [
 			"defense": "50",
 			"spattack": "40",
 			"spdefense": "55",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -819,7 +819,7 @@ export const MOCKUP_DATA = [
 			"attack": "55",
 			"defense": "25",
 			"spattack": "35",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "95"
 		}
 	},
@@ -848,7 +848,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "40",
-			"attack": 45,
+			"attack": "45",
 			"defense": "35",
 			"spattack": "40",
 			"spdefense": "40",
@@ -915,7 +915,7 @@ export const MOCKUP_DATA = [
 			"attack": "80",
 			"defense": "35",
 			"spattack": "35",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "70"
 		}
 	},
@@ -945,7 +945,7 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "55",
 			"attack": "70",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "70",
 			"spdefense": "50",
 			"speed": "60"
@@ -1058,7 +1058,7 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "55",
 			"attack": "50",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "135",
 			"spdefense": "85",
 			"speed": "120"
@@ -1093,7 +1093,7 @@ export const MOCKUP_DATA = [
 			"defense": "70",
 			"spattack": "50",
 			"spdefense": "60",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -1142,7 +1142,7 @@ export const MOCKUP_DATA = [
 			"attack": "90",
 			"defense": "50",
 			"spattack": "85",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "55"
 		}
 	},
@@ -1226,8 +1226,8 @@ export const MOCKUP_DATA = [
 			"hp": "55",
 			"attack": "95",
 			"defense": "115",
-			"spattack": 45,
-			"spdefense": 45,
+			"spattack": "45",
+			"spdefense": "45",
 			"speed": "35"
 		}
 	},
@@ -1245,7 +1245,7 @@ export const MOCKUP_DATA = [
 			"defense": "130",
 			"spattack": "55",
 			"spdefense": "65",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -1328,7 +1328,7 @@ export const MOCKUP_DATA = [
 			"defense": "70",
 			"spattack": "95",
 			"spdefense": "55",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -1351,7 +1351,7 @@ export const MOCKUP_DATA = [
 	{
 		"id": "083",
 		"name": "Farfetch'd",
-		"img": "http://img.pokemondb.net/artwork/farfetch'd.jpg",
+		"img": "",
 		"type": [
 			"Normal",
 			"Flying"
@@ -1376,7 +1376,7 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "35",
 			"attack": "85",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "35",
 			"spdefense": "35",
 			"speed": "75"
@@ -1408,11 +1408,11 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "65",
-			"attack": 45,
+			"attack": "45",
 			"defense": "55",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "70",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -1475,7 +1475,7 @@ export const MOCKUP_DATA = [
 			"hp": "30",
 			"attack": "65",
 			"defense": "100",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "25",
 			"speed": "40"
 		}
@@ -1493,7 +1493,7 @@ export const MOCKUP_DATA = [
 			"attack": "95",
 			"defense": "180",
 			"spattack": "85",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "70"
 		}
 	},
@@ -1523,9 +1523,9 @@ export const MOCKUP_DATA = [
 			"Poison"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "50",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "115",
 			"spdefense": "55",
 			"speed": "95"
@@ -1558,10 +1558,10 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "35",
-			"attack": 45,
+			"attack": "45",
 			"defense": "160",
 			"spattack": "30",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "70"
 		}
 	},
@@ -1575,7 +1575,7 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "60",
 			"attack": "48",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "43",
 			"spdefense": "90",
 			"speed": "42"
@@ -1674,7 +1674,7 @@ export const MOCKUP_DATA = [
 			"attack": "40",
 			"defense": "80",
 			"spattack": "60",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "40"
 		}
 	},
@@ -1724,7 +1724,7 @@ export const MOCKUP_DATA = [
 			"defense": "110",
 			"spattack": "50",
 			"spdefense": "80",
-			"speed": 45
+			"speed": "45"
 		}
 	},
 	{
@@ -1787,7 +1787,7 @@ export const MOCKUP_DATA = [
 			"attack": "65",
 			"defense": "95",
 			"spattack": "60",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "35"
 		}
 	},
@@ -1836,8 +1836,8 @@ export const MOCKUP_DATA = [
 			"hp": "105",
 			"attack": "130",
 			"defense": "120",
-			"spattack": 45,
-			"spdefense": 45,
+			"spattack": "45",
+			"spdefense": "45",
 			"speed": "40"
 		}
 	},
@@ -1917,7 +1917,7 @@ export const MOCKUP_DATA = [
 			"attack": "65",
 			"defense": "95",
 			"spattack": "95",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "85"
 		}
 	},
@@ -1929,7 +1929,7 @@ export const MOCKUP_DATA = [
 			"Water"
 		],
 		"stats": {
-			"hp": 45,
+			"hp": "45",
 			"attack": "67",
 			"defense": "60",
 			"spattack": "35",
@@ -1962,7 +1962,7 @@ export const MOCKUP_DATA = [
 		],
 		"stats": {
 			"hp": "30",
-			"attack": 45,
+			"attack": "45",
 			"defense": "55",
 			"spattack": "70",
 			"spdefense": "55",
@@ -1989,13 +1989,13 @@ export const MOCKUP_DATA = [
 	{
 		"id": "122",
 		"name": "Mr. Mime",
-		"img": "http://img.pokemondb.net/artwork/mr. mime.jpg",
+		"img": "",
 		"type": [
 			"Psychic"
 		],
 		"stats": {
 			"hp": "40",
-			"attack": 45,
+			"attack": "45",
 			"defense": "65",
 			"spattack": "100",
 			"spdefense": "120",
@@ -2177,7 +2177,7 @@ export const MOCKUP_DATA = [
 			"hp": "55",
 			"attack": "55",
 			"defense": "50",
-			"spattack": 45,
+			"spattack": "45",
 			"spdefense": "65",
 			"speed": "55"
 		}
@@ -2293,7 +2293,7 @@ export const MOCKUP_DATA = [
 			"attack": "80",
 			"defense": "90",
 			"spattack": "55",
-			"spdefense": 45,
+			"spdefense": "45",
 			"speed": "55"
 		}
 	},
@@ -2408,7 +2408,7 @@ export const MOCKUP_DATA = [
 		"stats": {
 			"hp": "41",
 			"attack": "64",
-			"defense": 45,
+			"defense": "45",
 			"spattack": "50",
 			"spdefense": "50",
 			"speed": "50"
